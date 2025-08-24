@@ -5,11 +5,23 @@
 Serial DCE and DTE  
   * Data Communication Equipment refers to hardware devices that process telecommunications systems and converts them to the proper signal for a given medium
   * DCE is used to establish, maintain, and terminate network sessions between a data source and destination; transmits clock signals
-    * In Cisco Packet Tracer, DCE and DTE interfaces can be differentiated by the presence of a clock symbol on an interface tooltip  
+    * In Cisco Packet Tracer, DCE and DTE interfaces can be differentiated by the presence of a clock symbol on an interface tooltip
+      <p align=center>
+        <img src="https://github.com/Fehral/networkprojectv3/blob/main/serialdcedte.png?raw=true">
+      </p>
   * Data Terminal Equipment refers to end devices from which telecommunications signals originate, e.g., computers, phones, fax machines, printers
   * DTE sends telecommunications signals to a DCE for processing and conversion
-OSPF routing protocol  
+
 SSH
+  *  Secure SHell is a cryptographic network protocol used for operating network services
+  *  SSH encrypts data transmitted between two devices
+  *  SSH is most notably used for remote login and command-line execution
+    *  SSH was created to replace Telnet, through which data is transmitted in-the-clear, not encrypted
+
+OSPF  
+  * Open Shortest Path First is an algorithmic link-state routing protocol intent on routing data within an Autonomous System efficiently
+    * AS refers to a large network, or group of networks, that use a single routing policy
+  * OSPF routers share their link-state information among others to accurately map out the network topology
 
 <p align=center>
   <img src="https://github.com/Fehral/networkprojectv3/blob/main/networkprojectv3topology.png?raw=true">
