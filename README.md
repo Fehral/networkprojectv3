@@ -116,11 +116,10 @@ F1-Router(config-if)#clock rate 64000
 F1-Router(config-if)#no shutdown
 F1-Router(config-if)#exit
 F1-Router(config)#router ospf 10
-F1-Router(config-router)#network 10.10.10.0 0.0.0.3 area 0
 F1-Router(config-router)#network 10.10.10.4 0.0.0.3 area 0
-F1-Router(config-router)#network 192.168.3.0 255.255.255.0 area 0
-F1-Router(config-router)#network 192.168.4.0 255.255.255.0 area 0
-F1-Router(config-router)#network 192.168.5.0 255.255.255.0 area 0
+F1-Router(config-router)#network 10.10.10.8 0.0.0.3 area 0
+F1-Router(config-router)#network 192.168.1.0 255.255.255.0 area 0
+F1-Router(config-router)#network 192.168.2.0 255.255.255.0 area 0
 F1-Router(config-router)#exit
 F1-Router(config)#service dhcp
 F1-Router(config)#ip dhcp pool Sales
