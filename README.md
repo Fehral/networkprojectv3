@@ -15,8 +15,8 @@ Serial DCE and DTE
 SSH
   *  Secure SHell is a cryptographic network protocol used for operating network services
   *  SSH encrypts data transmitted between two devices
-  *  SSH is most notably used for remote login and command-line execution
-    *  SSH was created to replace Telnet, through which data is transmitted in-the-clear, not encrypted
+  *  SSH is most notably used for remote login and command-line execution  
+      *  SSH was created to replace Telnet, through which data is transmitted in-the-clear, not encrypted
 
 OSPF  
   * Open Shortest Path First is an algorithmic link-state routing protocol intent on routing data within an Autonomous System efficiently
