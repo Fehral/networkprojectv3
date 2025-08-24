@@ -24,7 +24,7 @@ OSPF
   * OSPF routers share their link-state information among others to accurately map out the network topology
 
 <p align=center>
-  <ins>Hotel Management Topology</ins>
+  <ins>Hotel Management Network Topology</ins>
 </p>
 
 <p align=center>
