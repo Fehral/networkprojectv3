@@ -1,6 +1,13 @@
-# Work In Progress
+<p align=center>
+  <ins>Overview of Concepts</ins>
+</p>
 
-Serial DCE  
+Serial DCE and DTE  
+  * Data Communication Equipment refers to hardware devices that process telecommunications systems and converts them to the proper signal for a given medium
+  * DCE is used to establish, maintain, and terminate network sessions between a data source and destination; transmits clock signals
+    * In Cisco Packet Tracer, DCE and DTE interfaces can be differentiated by the presence of a clock symbol on an interface tooltip  
+  * Data Terminal Equipment refers to end devices from which telecommunications signals originate, e.g., computers, phones, fax machines, printers
+  * DTE sends telecommunications signals to a DCE for processing and conversion
 OSPF routing protocol  
 SSH
 
