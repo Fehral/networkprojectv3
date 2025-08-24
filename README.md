@@ -85,8 +85,7 @@ F1-Router(config-subif)#encapsulation dot1Q 80
 F1-Router(config-subif)#ip address 192.168.8.1 255.255.255.0
 F1-Router(config-subif)#int g0/0
 F1-Rotuer(config-if)#no shutdown
-F1-Router(config-if)#exit
-F1-Router(config)#exit
+F1-Router(config-if)#end
 F1-Router#copy run start
 Destination filename [startup-config]? [Enter]
 Building configuration...
@@ -108,8 +107,7 @@ Switch(config-if-range)#switchport mode access
 Switch(config-if-range)#switchport access vlan 80
 Switch(config-if-range)#int gig0/1
 Switch(config-if)#switchport mode trunk
-Switch(config-if)#exit
-Switch(config)#exit
+Switch(config-if)#end
 Switch#copy run start
 Destination filename [startup-config]? [Enter]
 Building configuration...
@@ -171,8 +169,7 @@ F1-Router(config-subif)#encapsulation dot1Q 80
 F1-Router(config-subif)#ip address 192.168.8.1 255.255.255.0
 F1-Router(config-subif)#int g0/0
 F1-Rotuer(config-if)#no shutdown
-F1-Router(config-if)#exit
-F1-Router(config)#exit
+F1-Router(config-if)#end
 F1-Router#copy run start
 Destination filename [startup-config]? [Enter]
 Building configuration...
@@ -194,8 +191,7 @@ Switch(config-if-range)#switchport mode access
 Switch(config-if-range)#switchport access vlan 50
 Switch(config-if-range)#int gig0/1
 Switch(config-if)#switchport mode trunk
-Switch(config-if)#exit
-Switch(config)#exit
+Switch(config-if)#end
 Switch#copy run start
 Destination filename [startup-config]? [Enter]
 Building configuration...
@@ -251,8 +247,7 @@ F1-Router(config-subif)#encapsulation dot1Q 20
 F1-Router(config-subif)#ip address 192.168.2.1 255.255.255.0
 F1-Router(config-subif)#int g0/0
 F1-Rotuer(config-if)#no shutdown
-F1-Router(config-if)#exit
-F1-Router(config)#exit
+F1-Router(config-if)#end
 F1-Router#copy run start
 Destination filename [startup-config]? [Enter]
 Building configuration...
@@ -271,8 +266,7 @@ Switch(config-if-range)#switchport mode access
 Switch(config-if-range)#switchport access vlan 20
 Switch(config-if-range)#int gig0/1
 Switch(config-if)#switchport mode trunk
-Switch(config-if)#exit
-Switch(config)#exit
+Switch(config-if)#end
 Switch#copy run start
 Destination filename [startup-config]? [Enter]
 Building configuration...
