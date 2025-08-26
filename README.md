@@ -17,7 +17,7 @@ SSH
   *  SSH encrypts data transmitted between two devices
   *  SSH is most notably used for remote login and command-line execution  
       *  SSH was created to replace Telnet, through which data is transmitted in-the-clear, not encrypted
-  *  In order for SSH to be enabled on a Cisco device, the hostname, username, password, and domain name must be configured, the terminal lines must be activated, login must be enabled, and a cryptographic key must be generated
+  *  In order for SSH to be enabled on a Cisco device, the hostname, username, password, and domain name must be configured, the virtual terminal lines must be activated, login must be enabled, and a cryptographic key must be generated
 
 OSPF  
   * Open Shortest Path First is an algorithmic link-state routing protocol intent on routing data within an Autonomous System efficiently
