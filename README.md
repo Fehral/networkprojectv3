@@ -41,10 +41,9 @@ F1-Router(config)#ip domain name Floor1
 F1-Router(config)#username cisco password cisco
 F1-Router(config)#crypto key generate rsa
 How many bits in the modulus [512]: 1024
-% Generating 1024 bit RSA keys, keys will be non-exportable...[OK]
 F1-Router(config)#line vty 0 15
-*Mar 1 0:0:42.319: %SSH-5-ENABLED: SSH 1.99 has been enabled
 F1-Router(config-line)#login local
+F1-Router(config-line)#transport input ssh
 F1-Router(config-line)#exit
 F1-Router(config)#int s0/0/0
 F1-Router(config-if)#ip address 10.10.10.1 255.255.255.252
